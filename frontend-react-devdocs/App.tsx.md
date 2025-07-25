@@ -20,7 +20,7 @@
 ## 🧱 사용 중인 컴포넌트/Provider
 
 - [`AuthProvider`](./features/auth/context/AuthContext.tsx.md)
-- [`AppRouter`](./app/routes/AppRouter.md)
+- [`AppRouter`](./app/routes/AppRouter.tsx.md)
 - [`EmotionToastProvider`](./features/toast/context/EmotionToastProvider.tsx.md)
 - [`EmotionToastContainer`](./features/toast/components/EmotionToastContainer.tsx.md)
 - [`LoadingProvider`](./features/system/context/LoadingContext.tsx.md)
