@@ -11,12 +11,13 @@ features/diary/types/emotionMap.ts
 ---
 
 ## 🔗 주요 export 목록
-항목	설명
-EmotionLevel	감정 점수 타입 (1~5)
-EmotionItem	감정 리스트 항목 구조 정의
-emotionList	감정 점수별 이모지/라벨 목록
-emotionEmojiMap	감정 점수 ➝ 이모지 매핑 객체
-emotionLabelMap	감정 점수 ➝ 라벨 매핑 객체
+| 항목            |     설명      |
+| ------------------- | --------------------------- |
+| EmotionLevel |	감정 점수 타입 (1~5)
+| EmotionItem |	감정 리스트 항목 구조 정의 |
+| emotionList |	감정 점수별 이모지/라벨 목록 |
+| emotionEmojiMap |	감정 점수 ➝ 이모지 매핑 객체 |
+| emotionLabelMap |	감정 점수 ➝ 라벨 매핑 객체 |
 
 ---
 

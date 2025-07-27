@@ -22,14 +22,12 @@ GPT가 생성한 회고 피드백을 보여주는 카드 컴포넌트입니다.
 ---
 
 # 🧩 포함 컴포넌트 트리
-text
-복사
-편집
+```text
 FeedbackCard
 ├── GPT 피드백 텍스트
 └── (피드백이 없을 경우) 안내 문구
     └── (주석 처리된) "피드백 생성" 버튼
-
+```
 ---
 
 # 📝 설명 및 주요 로직
@@ -47,16 +45,14 @@ useToastHelper()는 현재 UI에서 사용되지 않으나 구조상 선언은 �
 
 피드백이 있을 경우:
 
-tsx
-복사
-편집
+```tsx
 <p className="text-sm text-gray-700 whitespace-pre-wrap">{feedback}</p>
+```
 피드백이 없을 경우:
 
-tsx
-복사
-편집
+```tsx
 <p className="text-sm text-gray-500 mb-2">아직 GPT 피드백이 없어요.</p>
+```
 handleGenerateFeedback 함수는 완전히 주석 처리되어 있음.
 추후 피드백 수동 생성 기능을 위해 준비된 코드.
 
